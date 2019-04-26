@@ -1,0 +1,15 @@
+﻿<Window x:Class="CustomLogging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="txtLog"
+                     Margin="5" />
+            <Button Content="Submit"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center" 
+                    Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

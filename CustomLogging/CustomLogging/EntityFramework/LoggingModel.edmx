@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="LoggingTestModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="LoggingTestModelStoreContainer">
+          <EntitySet Name="LogEntries" EntityType="LoggingTestModel.Store.LogEntries" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="LogEntries">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="TimeStamp" Type="datetime" />
+          <Property Name="Message" Type="nvarchar(max)" />
+          <Property Name="MyStuff" Type="nvarchar(max)" />
+          <Property Name="EventId" Type="int" />
+          <Property Name="Severity" Type="nvarchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="Machine" Type="nvarchar" MaxLength="50" />
+          <Property Name="AppDomain" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProcessId" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProcessName" Type="nvarchar(max)" />
+          <Property Name="Win32ThreadId" Type="nvarchar" MaxLength="50" />
+          <Property Name="ThreadName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LoggingTestModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="LoggingTestEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="LogEntries" EntityType="LoggingTestModel.LogEntry" />
+        </EntityContainer>
+        <EntityType Name="LogEntry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Priority" Type="Int32" />
+          <Property Name="TimeStamp" Type="DateTime" />
+          <Property Name="Message" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="MyStuff" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="EventId" Type="Int32" />
+          <Property Name="Severity" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Machine" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AppDomain" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProcessId" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProcessName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Win32ThreadId" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ThreadName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LoggingTestModelStoreContainer" CdmEntityContainer="LoggingTestEntities">
+          <EntitySetMapping Name="LogEntries"><EntityTypeMapping TypeName="LoggingTestModel.LogEntry"><MappingFragment StoreEntitySet="LogEntries">
+            <ScalarProperty Name="Id" ColumnName="Id" />
+            <ScalarProperty Name="Priority" ColumnName="Priority" />
+            <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+            <ScalarProperty Name="Message" ColumnName="Message" />
+            <ScalarProperty Name="MyStuff" ColumnName="MyStuff" />
+            <ScalarProperty Name="EventId" ColumnName="EventId" />
+            <ScalarProperty Name="Severity" ColumnName="Severity" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="Machine" ColumnName="Machine" />
+            <ScalarProperty Name="AppDomain" ColumnName="AppDomain" />
+            <ScalarProperty Name="ProcessId" ColumnName="ProcessId" />
+            <ScalarProperty Name="ProcessName" ColumnName="ProcessName" />
+            <ScalarProperty Name="Win32ThreadId" ColumnName="Win32ThreadId" />
+            <ScalarProperty Name="ThreadName" ColumnName="ThreadName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="LoggingModel">
+        <EntityTypeShape EntityType="LoggingTestModel.LogEntry" Width="1.5" PointX="0.75" PointY="0.75" Height="3.2357796223958335" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
