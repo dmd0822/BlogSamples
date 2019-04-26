@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f55b7aff-f178-4878-ba83-e245a7399de8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6907/HelloService2.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelloService2.xsd" MetadataType="Schema" ID="d305bc24-8391-48a6-b98c-f1160692c867" SourceId="1" SourceUrl="http://localhost:6907/HelloService2.svc?xsd=xsd0" />
+    <MetadataFile FileName="HelloService21.xsd" MetadataType="Schema" ID="e87a8a22-3295-4da1-80d5-009d8b7725e5" SourceId="1" SourceUrl="http://localhost:6907/HelloService2.svc?xsd=xsd1" />
+    <MetadataFile FileName="HelloService2.wsdl" MetadataType="Wsdl" ID="db692320-7745-45a3-b54d-287d52dfc55b" SourceId="1" SourceUrl="http://localhost:6907/HelloService2.svc?wsdl" />
+    <MetadataFile FileName="HelloService2.disco" MetadataType="Disco" ID="d6f8f8b8-f413-4a64-860a-bc4c6bc20b09" SourceId="1" SourceUrl="http://localhost:6907/HelloService2.svc?disco" />
+    <MetadataFile FileName="HelloService21.wsdl" MetadataType="Wsdl" ID="a827777c-8cc1-4020-92f4-b7135d8743fe" SourceId="1" SourceUrl="http://localhost:6907/HelloService2.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,12 @@
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\Bin\Debug\UserSecurityDemo.dll
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\Bin\Debug\UserSecurityDemo.pdb
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\Bin\Debug\AppManifest.xaml
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\Bin\Debug\UserSecurityDemo.xap
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\Bin\Debug\UserSecurityDemoTestPage.html
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\App.g.i.cs
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\MainPage.g.i.cs
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\UserSecurityDemo.g.resources
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\UserSecurityDemo.dll
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\UserSecurityDemo.pdb
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\UserSecurityDemo\obj\Debug\XapCacheFile.xml

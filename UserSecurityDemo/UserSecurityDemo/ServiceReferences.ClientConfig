@@ -1,0 +1,24 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_HelloService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="TransportCredentialOnly" />
+                </binding>
+                <binding name="BasicHttpBinding_HelloService2" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="TransportCredentialOnly" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:6321/HelloService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_HelloService" contract="MyService.HelloService"
+                name="BasicHttpBinding_HelloService" />
+            <endpoint address="http://localhost:6907/HelloService2.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_HelloService2" contract="MyService2.HelloService2"
+                name="BasicHttpBinding_HelloService2" />
+        </client>
+    </system.serviceModel>
+</configuration>

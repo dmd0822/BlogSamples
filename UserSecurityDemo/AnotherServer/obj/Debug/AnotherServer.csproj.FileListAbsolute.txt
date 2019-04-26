@@ -1,0 +1,5 @@
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\AnotherServer\bin\AnotherServer.dll
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\AnotherServer\bin\AnotherServer.pdb
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\AnotherServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\AnotherServer\obj\Debug\AnotherServer.dll
+C:\Users\davisd\Documents\Visual Studio 2010\Projects\SilverlightSandbox\UserSecurityDemo\AnotherServer\obj\Debug\AnotherServer.pdb
