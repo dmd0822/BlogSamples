@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAVE-DELL-WIN10</Machine>
+    <WindowsUser>dave</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d47c3d54-13e0-40d3-b5f9-bc509b496d92</PackageIdentityName>
+    <IntermediateOutputPath>D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\EventHubSample.Windows.exe">
+      <PackagePath>EventHubSample.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\EventHubSample.Windows.xr.xml">
+      <PackagePath>EventHubSample.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\Projects\Blog Posts\Event Hub REST API\EventHubSample\EventHubSample\EventHubSample.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
