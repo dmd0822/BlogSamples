@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple_client\\gRPC_Simple_Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\gRPC_Simple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\gRPC_Simple.csproj",
+        "projectName": "gRPC_Simple",
+        "projectPath": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\gRPC_Simple.csproj",
+        "packagesPath": "C:\\Users\\dave\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple_client\\gRPC_Simple_Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple_client\\gRPC_Simple_Client.csproj",
+        "projectName": "gRPC_Simple_Client",
+        "projectPath": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple_client\\gRPC_Simple_Client.csproj",
+        "packagesPath": "C:\\Users\\dave\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple_client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\gRPC_Simple.csproj": {
+                "projectPath": "C:\\Users\\dave\\source\\repos\\BlogSamples\\gRPC_Simple\\gRPC_Simple\\gRPC_Simple.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

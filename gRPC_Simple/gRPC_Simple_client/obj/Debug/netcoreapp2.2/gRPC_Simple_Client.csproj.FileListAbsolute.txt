@@ -1,0 +1,14 @@
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple_Client.deps.json
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple_Client.runtimeconfig.json
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple_Client.runtimeconfig.dev.json
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple_Client.dll
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple_Client.pdb
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple.dll
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\bin\Debug\netcoreapp2.2\gRPC_Simple.pdb
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.csprojAssemblyReference.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.csproj.CoreCompileInputs.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.AssemblyInfoInputs.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.AssemblyInfo.cs
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.csproj.CopyComplete
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.dll
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple_client\obj\Debug\netcoreapp2.2\gRPC_Simple_Client.pdb
