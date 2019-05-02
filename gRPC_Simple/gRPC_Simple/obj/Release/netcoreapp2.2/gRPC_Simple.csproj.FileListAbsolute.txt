@@ -1,0 +1,9 @@
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\bin\Release\netcoreapp2.2\gRPC_Simple.deps.json
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\bin\Release\netcoreapp2.2\gRPC_Simple.dll
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\bin\Release\netcoreapp2.2\gRPC_Simple.pdb
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.csprojAssemblyReference.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.csproj.CoreCompileInputs.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.AssemblyInfoInputs.cache
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.AssemblyInfo.cs
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.dll
+C:\Users\dave\source\repos\BlogSamples\gRPC_Simple\gRPC_Simple\obj\Release\netcoreapp2.2\gRPC_Simple.pdb

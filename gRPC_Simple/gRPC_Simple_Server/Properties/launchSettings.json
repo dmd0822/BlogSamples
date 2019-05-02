@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "gRPC_Simple_Server": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

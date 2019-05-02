@@ -15,7 +15,7 @@ namespace gRPC_Simple_Server
             Server server = new Server
             {
                 Services = { AddDemo.BindService(new Calculator()) },
-                Ports = { new ServerPort("127.0.0.1", Port, ServerCredentials.Insecure) }
+                Ports = { new ServerPort("0.0.0.0", Port, ServerCredentials.Insecure) }
             };
             server.Start();
 
